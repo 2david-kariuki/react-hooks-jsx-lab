@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { image } from "../data/data";
 import About from "../components/About";
 
+
 test("renders a <div> with the ID of 'about'", () => {
   const { container } = render(<About />);
 
